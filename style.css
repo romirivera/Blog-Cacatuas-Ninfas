@@ -1,0 +1,141 @@
+
+
+body {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: palegoldenrod;
+    color: orangered;
+  }
+  
+  :root {
+    --color-primary: grey;
+    --color-secondary: orangered;
+    --color-background: palegoldenrod;
+    --color-text: black;
+  }
+  
+  p {
+    color: var(--color-primary);
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .featured-post {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .featured-post img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .blog-posts article {
+    background-color: #fff;
+    width: 45%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: blanchedalmond;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .social-media a {
+    color: var(--color-secondary);
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .read-more {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .about-us-image {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comments-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .button {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .button2 {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
